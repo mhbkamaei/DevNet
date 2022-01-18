@@ -1,0 +1,11 @@
+---
+inventory:
+    plugin: SimpleInventory
+    options:
+        host_file: "/home/hbb/NetDevOps/DevNet/nornir/inventory/hosts.yaml"
+        group_file: "/home/hbb/NetDevOps/DevNet/nornir/inventory/groups.yaml"
+        defaults_file: "/home/hbb/NetDevOps/DevNet/nornir/inventory/defaults.yaml"
+runner:
+    plugin: threaded
+    options:
+        num_workers: 100
