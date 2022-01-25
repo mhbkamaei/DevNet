@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#22d15c",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#811519",
+        "titleBar.inactiveForeground": "#cccccc"
+    }
+}
